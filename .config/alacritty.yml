@@ -1,4 +1,6 @@
-#catpuccin-mocha
+
+# catpuccin 
+
 colors:
     primary:
         background: "#1E1E2E" # base
@@ -77,8 +79,22 @@ colors:
     indexed_colors:
         - { index: 16, color: "#FAB387" }
         - { index: 17, color: "#F5E0DC" }
-
-#Font
+# Font configuration
 font:
-  # Point size
-  size: 16.0
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+  
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 13
